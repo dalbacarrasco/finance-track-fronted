@@ -35,7 +35,7 @@ const Dashboard = () => {
 
   return (
     <div>
-      <Typography variant="h5" className="mb-6 font-bold text-gray-800">
+      <Typography variant="h5" className="mb-6 font-bold text-gray-800" fontWeight="bold">
         Resumen de {new Date().toLocaleString('es', { month: 'long', year: 'numeric' })}
       </Typography>
 
