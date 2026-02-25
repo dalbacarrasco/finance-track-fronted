@@ -1,5 +1,5 @@
 export interface Resume {
-  totalIncomes: number;
+  totalIncomings: number;
   totalExpenses: number;
   balance: number;
 }
